@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap");
+
+body {
+  background: linear-gradient(to bottom, #07111e, #1e3a5a);
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.barra-superior {
+  background-color: #07111e;
+  width: 100%;
+  z-index: 1;
+  padding: 3px 0;
+}
+
+b {
+  color: white;
+  font-family: "Exo 2";
+  font-size: 30px;
+  text-align: center;
+  display: block;
+  margin-bottom: 10px;
+  margin-top: -60px;
+}
+
+.ame {
+  margin-left: 10px;
+  margin-top: 3px;
+  margin-bottom: 5px;
+  width: 60px;
+  height: 60px;
+  transition: transform 0.3s ease-in-out;
+}
+
+nav {
+  background: linear-gradient(to bottom, #1c1d3d, #1f2153);
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 10px 10px 10px rgba(8, 3, 19, 0.993);
+}
+
+nav a {
+  color: white;
+  font-family: Impact;
+  margin-left: 5px;
+  transition: font-size 0.3s ease-in-out;
+}
+
+nav a:hover {
+  color: #dedb9d;
+  font-size: 15px;
+}
+
+nav table {
+  width: 99.5%;
+}
+
+.con14 {
+  margin-right: -55px;
+}
+
+ul {
+  color: white;
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+ul li {
+  padding: 7px 0;
+  width: 45%;
+}
+
+ul li:nth-child(odd) {
+  text-align: right;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-family: "Geneva", Times, serif;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  font-family: "Roboto Slab";
+}
+
+.bienvenida {
+  font-family: Didot;
+}
+
+p {
+  color: white;
+  text-align: justify;
+  font-family: Georgia;
+  font-size: 15px;
+}
+
+ul {
+  color: white;
+  font-family: georgia;
+  font-size: 15px;
+}
+
+footer {
+  background-color: #dedb9d;
+  width: 100%;
+  height: 17px;
+  text-align: center;
+  padding: 6px 0;
+  position: fixed;
+  bottom: 0;
+  box-shadow: 0px -1px 4px rgba(8, 3, 19, 0.993);
+}
+
+.barra {
+  position: absolute;
+  top: 5;
+  right: 0;
+  width: 200px;
+  height: 219%;
+  background-color: #07111e;
+  padding: 10px;
+  box-sizing: border-box;
+  border-left: 5px solid #1c1d3d;
+}
+
+.barra img {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  border-top-left-radius: 15px;
+  border: 1px double #1e3a5a;
+}
+
+.palabra {
+  width: 100%;
+  color: #07111e;
+  text-align: center;
+  background-color: #dedb9d;
+  margin-top: -22px;
+  border-bottom-right-radius: 15px;
+  border: 1px double #1e3a5a;
+}
+
+.container {
+  width: 75%;
+  margin-left: 40px;
+}
+
+.Equipaciones {
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  column-gap: 20px;
+  row-gap: 10px;
+}
+
+.Equipaciones img {
+  width: 120px;
+  height: 120px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.Equipaciones img:hover {
+  transform: scale(1.2);
+}
+
+.Estadio img {
+  margin-left: 37%;
+  width: 230px;
+  height: 180px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.Estadio img:hover {
+  transform: scale(1.2);
+}
+
+/*A partir de aquí inicia el styles para "la14"*/
+
+.body {
+  background: linear-gradient(to bottom, #07111e, #1e3a5a);
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.ancho {
+  width: 100%;
+  margin-left: -3px;
+}
+
+.la14-nav {
+  width: 100%;
+}
+
+.nav-right-options {
+  margin-left: 78%;
+}
+
+.campeonato {
+  width: 90%;
+  margin-left: 55px;
+}
+
+.celebracion {
+  border: solid black;
+  border-radius: 20px;
+  margin-left: 34%;
+  width: 30%;
+  height: 10%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.celebracion:hover {
+  transform: scale(1.1);
+}
+
+/*A partir de aquí inicia el styles para "contacto"*/
+
+.America-logo {
+  width: 20%;
+  height: 15%;
+  margin-left: 40%;
+  transition: all 0.3s ease-in-out;
+  margin-bottom: 50px;
+}
+
+.America-logo:hover {
+  transform: scale(1.1);
+}
+
+.h2-contacto {
+  text-align: left;
+  margin-left: 30px;
+}
+
+.contacto {
+  width: 80%;
+  margin-left: 30px;
+  font-family: Franklin Gothic;
+  font-size: 16px;
+  color: #333;
+}
+
+.contacto-right-options {
+  margin-left: 87%;
+}
+
+a {
+  color: white;
+  transition: font-size 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #dedb9d;
+  font-size: 15px;
+  transform: scale(1.2);
+}
